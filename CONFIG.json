@@ -1,7 +1,7 @@
 {
    "siteMetadata":{
       "title":"Portfolio - Skye",
-      "description":"Portfolio page by skyes-cloud"
+      "description":"Portfolio page by Skye"
    },
    "global":{
       "font":"roboto",
@@ -14,11 +14,11 @@
       }
    },
    "footer":{
-      "text":"© 2025 Skye - All rights reserved.",
+      "text":"© 2024 Skye - All rights reserved.",
       "links":[
          {
             "label":"GitHub",
-            "url":"https://github.com/skyes-cloud"
+            "url":"https://github.com/SkyesCloud"
          },
          {
             "label":"Contact",
@@ -33,24 +33,25 @@
    "pages":{
       "home":{
          "enabled":true,
-         "header":"Hey, I'm Skye!",
+         "header":"Hello, my name is Skye!",
          "route":"/home",
          "profile_image":"https://avatars.githubusercontent.com/u/114857048?v=4",
          "about_me":"About Me",
-         "description":"Cybersecurity student, coder, and server host.",
+         "description":"I like to bring random ideas to reality",
          "tools_languages_title":"Tools & Languages",
          "languages":[
             "Java",
             "JavaScript",
+            "TypeScript",
             "Python"
          ],
          "tools":[
             "Next.js",
             "MongoDB",
-            "IntelliJ",
+            "Intellij",
             "MariaDB",
             "Pycharm",
-            "Docker",
+            "FIX",
             "Git"
          ],
          "action_buttons":[
@@ -61,7 +62,7 @@
             },
             {
                "label":"View on Github",
-               "route":"https://github.com/skyes-cloud",
+               "route":"https://github.com/SkyesCloud",
                "style":"secondary"
             }
          ],
@@ -70,24 +71,24 @@
             "title":"My Experience",
             "list":[
                {
-                  "title":"Cybersecurity Student",
-                  "company":"High School Program",
+                  "title":"Software Developer",
+                  "company":"SkyeNet",
                   "date":"2023 - Present",
-                  "description":"Studying cybersecurity principles, ethical hacking, and network security.",
+                  "description":"Developing innovative server solutions and creating community-driven gaming experiences.",
                   "side":"left"
                },
                {
-                  "title":"Minecraft Server Developer",
-                  "company":"SkyeNet",
-                  "date":"2024 - Present",
-                  "description":"Building and managing custom Minecraft servers like Mine Fortress and Create: SkyeNet.",
+                  "title":"Cybersecurity Student",
+                  "company":"High School Program",
+                  "date":"2023 - Present",
+                  "description":"Learning and applying cybersecurity principles through practical and theoretical study.",
                   "side":"right"
                },
                {
-                  "title":"Web Developer",
-                  "company":"Freelance",
-                  "date":"2022 - Present",
-                  "description":"Developing and maintaining websites like skyes.cloud and estrogen.email.",
+                  "title":"Certified IT Specialist",
+                  "company":"Self-employed",
+                  "date":"2020 - 2022",
+                  "description":"Achieved multiple IT certifications and gained hands-on technical experience.",
                   "side":"left"
                }
             ]
@@ -102,89 +103,34 @@
          "enabled":true,
          "header":"Socials",
          "route":"/contact",
-         "email":"contact@skyes.cloud",
+         "email":"skye@estrogen.email",
          "direct_contact":"Reach Me Directly",
          "legal":{
             "enabled":true,
             "name":"Skye",
-            "address":"N/A",
-            "email":"contact@skyes.cloud",
-            "phone":"N/A",
+            "address":"",
+            "email":"skye@estrogen.email",
+            "phone":"",
             "tax_id":"Not Applicable",
             "legal_disclaimer":"This is a personal portfolio website for informational purposes."
          },
          "social_links":[
             {
                "name":"GitHub",
-               "url":"https://github.com/skyes-cloud",
+               "url":"https://github.com/SkyesCloud",
                "icon":"github"
+            },
+            {
+               "name":"SkyeNet",
+               "url":"https://skyenet.co.in",
+               "icon":"network"
+            },
+            {
+               "name":"SkyesCloud",
+               "url":"https://skyes.cloud",
+               "icon":"cloud"
             }
-         ],
-         "contact_form":{
-            "enabled":true,
-            "send_button":"Send Message",
-            "success_message":"Message sent successfully!",
-            "failure_message":"Failed to send message. Please try again.",
-            "error_message":"An error occurred. Please try again.",
-            "fields":[
-               {
-                  "name":"name",
-                  "label":"Your Name",
-                  "type":"text",
-                  "required":true
-               },
-               {
-                  "name":"email",
-                  "label":"Your Email",
-                  "type":"email",
-                  "required":true
-               },
-               {
-                  "name":"message",
-                  "label":"Your Message",
-                  "type":"textarea",
-                  "required":true
-               }
-            ]
-         }
-      }
-   },
-   "card":{
-      "pop_in":true,
-      "hover_effect":true,
-      "hover_glow":true,
-      "image_shine":true
-   },
-   "cards":[
-      {
-         "title":"SkyeNet (Minecraft Network)",
-         "description":"A custom Minecraft network featuring Mine Fortress and Create: SkyeNet.",
-         "imageSRC":"/images/projects/skyenet.webp",
-         "buttonText":"Join the Server",
-         "buttonURL":"https://skyenet.co.in",
-         "badges":[
-            "https://img.shields.io/badge/status-online-brightgreen"
-         ]
-      },
-      {
-         "title":"estrogen.email",
-         "description":"A privacy-focused email service for trans femmes.",
-         "imageSRC":"/images/projects/estrogenemail.webp",
-         "buttonText":"Visit Website",
-         "buttonURL":"https://estrogen.email",
-         "badges":[
-            "https://img.shields.io/badge/privacy-secure-blue"
-         ]
-      },
-      {
-         "title":"skyes.cloud",
-         "description":"A cloud platform hosting personal and open-source projects.",
-         "imageSRC":"/images/projects/skyescloud.webp",
-         "buttonText":"Visit Website",
-         "buttonURL":"https://skyes.cloud",
-         "badges":[
-            "https://img.shields.io/badge/cloud-active-purple"
          ]
       }
-   ]
+   }
 }
