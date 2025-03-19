@@ -1,7 +1,7 @@
 {
    "siteMetadata":{
-      "title":"Portfolio - Maxim",
-      "description":"Portfolio page by max1mde"
+      "title":"Portfolio - Skye",
+      "description":"Portfolio page by skyes-cloud"
    },
    "global":{
       "font":"roboto",
@@ -14,11 +14,11 @@
       }
    },
    "footer":{
-      "text":"© 2024 Maxim - All rights reserved.",
+      "text":"© 2025 Skye - All rights reserved.",
       "links":[
          {
             "label":"GitHub",
-            "url":"https://github.com/max1mde/portfolio"
+            "url":"https://github.com/skyes-cloud"
          },
          {
             "label":"Contact",
@@ -33,25 +33,24 @@
    "pages":{
       "home":{
          "enabled":true,
-         "header":"Hello, my name is Maxim!",
+         "header":"Hey, I'm Skye!",
          "route":"/home",
          "profile_image":"https://avatars.githubusercontent.com/u/114857048?v=4",
          "about_me":"About Me",
-         "description":"I like to bring random ideas to reality",
+         "description":"Cybersecurity student, coder, and server host.",
          "tools_languages_title":"Tools & Languages",
          "languages":[
             "Java",
             "JavaScript",
-            "TypeScript",
             "Python"
          ],
          "tools":[
             "Next.js",
             "MongoDB",
-            "Intellij",
+            "IntelliJ",
             "MariaDB",
             "Pycharm",
-            "FIX",
+            "Docker",
             "Git"
          ],
          "action_buttons":[
@@ -62,7 +61,7 @@
             },
             {
                "label":"View on Github",
-               "route":"https://github.com/max1mde/portfolio",
+               "route":"https://github.com/skyes-cloud",
                "style":"secondary"
             }
          ],
@@ -71,24 +70,24 @@
             "title":"My Experience",
             "list":[
                {
-                  "title":"Software Developer",
-                  "company":"India Solutions",
+                  "title":"Cybersecurity Student",
+                  "company":"High School Program",
                   "date":"2023 - Present",
-                  "description":"Developing highly effective phishing tools and creating innovative callcenter software solutions using cutting-edge technologies to improve the customer experience.",
+                  "description":"Studying cybersecurity principles, ethical hacking, and network security.",
                   "side":"left"
                },
                {
-                  "title":"Planetary Mineralogy Specialist",
-                  "company":"NASA",
-                  "date":"2022 - 2023",
-                  "description":"Led the inspection, analysis, and cataloging of unique mineral deposits found on Mars, including the discovery of the Jerome T. K. mineral.",
+                  "title":"Minecraft Server Developer",
+                  "company":"SkyeNet",
+                  "date":"2024 - Present",
+                  "description":"Building and managing custom Minecraft servers like Mine Fortress and Create: SkyeNet.",
                   "side":"right"
                },
                {
-                  "title":"Certified Pandemic Survivor",
-                  "company":"Self-employed",
-                  "date":"2020 - 2022",
-                  "description":"Managed Zoom meetings while playing Bedwars and Among Us, effectively balancing work and gaming.",
+                  "title":"Web Developer",
+                  "company":"Freelance",
+                  "date":"2022 - Present",
+                  "description":"Developing and maintaining websites like skyes.cloud and estrogen.email.",
                   "side":"left"
                }
             ]
@@ -103,32 +102,22 @@
          "enabled":true,
          "header":"Socials",
          "route":"/contact",
-         "email":"maxim@nextfight.net",
+         "email":"contact@skyes.cloud",
          "direct_contact":"Reach Me Directly",
          "legal":{
             "enabled":true,
-            "name":"Maxim",
-            "address":"Vaitape - Bora Bora",
-            "email":"maxim@nextfight.net",
-            "phone":"911",
+            "name":"Skye",
+            "address":"N/A",
+            "email":"contact@skyes.cloud",
+            "phone":"N/A",
             "tax_id":"Not Applicable",
             "legal_disclaimer":"This is a personal portfolio website for informational purposes."
          },
          "social_links":[
             {
                "name":"GitHub",
-               "url":"https://github.com/max1mde",
+               "url":"https://github.com/skyes-cloud",
                "icon":"github"
-            },
-            {
-               "name":"TikTok",
-               "url":"https://tiktok.com/@maximde",
-               "icon":"tiktok"
-            },
-            {
-               "name":"YouTube",
-               "url":"https://www.youtube.com/@max1mde",
-               "icon":"youtube"
             }
          ],
          "contact_form":{
@@ -158,62 +147,6 @@
                }
             ]
          }
-      },
-      "privacy":{
-         "enabled":false,
-         "header":"Privacy Policy",
-         "route":"/privacy",
-         "content":{
-            "contact_title":"Contact",
-            "contact":"maxim@netfight.net",
-            "introduction":"This portfolio website is designed with minimal data collection and maximum user privacy in mind.",
-            "sections":[
-               {
-                  "title":"Information Collection",
-                  "description":"We collect the following types of information:",
-                  "details":[
-                     "Name, email, and message content submitted through the contact form",
-                     "IP address for rate limiting and security purposes",
-                     "Potential tracking of client-side interactions for website functionality"
-                  ]
-               },
-               {
-                  "title":"Data Processing and Storage",
-                  "description":"Data collection and processing details:",
-                  "details":[
-                     "Contact form submissions are processed in-memory and not permanently stored",
-                     "IP addresses are temporarily tracked for rate limiting (maximum 30 minutes)",
-                     "No persistent user data is saved or stored long-term"
-                  ]
-               },
-               {
-                  "title":"Third-Party Services",
-                  "description":"Potential data collection by third-party services:",
-                  "details":[
-                     "Image hosting services (e.g., shields.io) may collect IP address during image requests",
-                     "Standard browser and server logs may capture additional metadata"
-                  ]
-               },
-               {
-                  "title":"Data Protection",
-                  "description":"We implement the following protection measures:",
-                  "details":[
-                     "Rate limiting to prevent abuse of contact form",
-                     "Validation of submitted form data",
-                     "No storage of sensitive personal information"
-                  ]
-               },
-               {
-                  "title":"User Rights",
-                  "description":"Users have the right to:",
-                  "details":[
-                     "Request information about data collection",
-                     "Request deletion of any potential stored information",
-                     "Opt-out of non-essential data collection"
-                  ]
-               }
-            ]
-         }
       }
    },
    "card":{
@@ -224,83 +157,33 @@
    },
    "cards":[
       {
-         "title":"Portfolio (This website)",
-         "description":"Customizable, responsive, portfolio website built with Next.js",
-         "imageSRC":"/images/projects/portfolio.webp",
-         "buttonText":"View on GitHub",
-         "buttonURL":"https://github.com/max1mde/portfolio",
+         "title":"SkyeNet (Minecraft Network)",
+         "description":"A custom Minecraft network featuring Mine Fortress and Create: SkyeNet.",
+         "imageSRC":"/images/projects/skyenet.webp",
+         "buttonText":"Join the Server",
+         "buttonURL":"https://skyenet.co.in",
          "badges":[
-            "https://img.shields.io/github/stars/max1mde/portfolio.svg?style=flat"
+            "https://img.shields.io/badge/status-online-brightgreen"
          ]
       },
       {
-         "title":"Fancy Physics",
-         "description":"Tree fall animation, hit particles, realistic explosions, 3D particles & more",
-         "imageSRC":"/images/projects/fancyphysics.webp",
-         "buttonText":"View on SpigotMC",
-         "buttonURL":"https://www.spigotmc.org/resources/110500/",
+         "title":"estrogen.email",
+         "description":"A privacy-focused email service for trans femmes.",
+         "imageSRC":"/images/projects/estrogenemail.webp",
+         "buttonText":"Visit Website",
+         "buttonURL":"https://estrogen.email",
          "badges":[
-            "https://img.shields.io/spiget/downloads/110500"
+            "https://img.shields.io/badge/privacy-secure-blue"
          ]
       },
       {
-         "title":"Better Chat Bubbles",
-         "description":"Packet based chat bubbles above players head, with an extensive API",
-         "imageSRC":"/images/projects/betterchatbubbles.webp",
-         "buttonText":"Buy on SpigotMC",
-         "buttonURL":"https://www.spigotmc.org/resources/115811/",
+         "title":"skyes.cloud",
+         "description":"A cloud platform hosting personal and open-source projects.",
+         "imageSRC":"/images/projects/skyescloud.webp",
+         "buttonText":"Visit Website",
+         "buttonURL":"https://skyes.cloud",
          "badges":[
-            "https://img.shields.io/spiget/downloads/115811"
-         ]
-      },
-      {
-         "title":"Fancy Readme Stats",
-         "description":"Animated Readme Cards - For your GitHub profile or repository readme",
-         "imageSRC":"/images/projects/readmestats.webp",
-         "buttonText":"View on GitHub",
-         "buttonURL":"https://github.com/max1mde/fancy-readme-stats",
-         "badges":[
-            "https://img.shields.io/github/stars/max1mde/fancy-readme-stats.svg?style=flat"
-         ]
-      },
-      {
-         "title":"HologramAPI",
-         "description":"Packet based text display hologram api with minimessage and emoji support",
-         "imageSRC":"/images/projects/hologramapi.webp",
-         "buttonText":"View on GitHub",
-         "buttonURL":"https://github.com/max1mde/HologramAPI",
-         "badges":[
-            "https://img.shields.io/github/stars/max1mde/HologramAPI.svg?style=flat"
-         ]
-      },
-      {
-         "title":"NextFight",
-         "description":"NextFight is a Minecraft minigame network focused on a Battle Royale like gamemode",
-         "imageSRC":"/images/projects/nextfight.webp",
-         "buttonText":"Join the Discord",
-         "buttonURL":"https://discord.nextfight.net/",
-         "badges":[
-            "https://img.shields.io/discord/1051758423211003951"
-         ]
-      },
-      {
-         "title":"MaximClient",
-         "description":"MaximClient was a 1.8 PVP client with many mods and free online cosmetics",
-         "imageSRC":"/images/projects/maximclient.webp",
-         "buttonText":"Join the Discord",
-         "buttonURL":"https://discord.gg/eCn8VWEGbZ",
-         "badges":[
-            "https://img.shields.io/discord/895012337793249341"
-         ]
-      },
-      {
-         "title":"FIX",
-         "description":"A Windows tool for AI text correction and translation with hotkeys & voice control",
-         "imageSRC":"/images/projects/fix.webp",
-         "buttonText":"View on GitHub",
-         "buttonURL":"https://github.com/max1mde/FIX",
-         "badges":[
-            "https://img.shields.io/github/stars/max1mde/FIX.svg?style=flat"
+            "https://img.shields.io/badge/cloud-active-purple"
          ]
       }
    ]
